@@ -54,13 +54,18 @@
         android:autofillHints="name"
         android:hint="@string/enter_the_description"
         android:gravity="top"
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:padding="12dp"
         android:textSize="18sp"
         android:background="@drawable/orange_border"
         android:layout_below="@id/titleEditText"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins"
-        />
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        android:lines="5"
+        android:minLines="3"
+        android:maxLines="10"
+    />
 
 </RelativeLayout>
