@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">NotesAppViews</string>
     <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
     <string name="note">NOTE</string>
     <string name="enter_the_title">Enter the title</string>
     <string name="enter_the_description">Enter the description</string>
+    <string name="update_button">Update Button</string>
 </resources>
